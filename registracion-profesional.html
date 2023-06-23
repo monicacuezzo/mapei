@@ -371,46 +371,8 @@
     <script src="assets/js/theia-sticky-sidebar.js"></script>
 
 	<script>
-		function size_dropdown() {
-			// const selectElement = document.getElementsByTagName('select')[0];
-			// const max_width = selectElement.clientWidth;
-			// const optionElements = document.querySelectorAll('option');
-
-			// console.log(selectElement+" "+max_width)
-
-			// Array.from(optionElements).forEach(element => {
-			// 	console.log(element.style.width+" "+max_width)
-			// 	// element.textContent.length
-			// 	element.style.width = max_width+"px";
-			// 	element.style.width = "100px";
-
-			// if (element.textContent.length > max_width) {
-			// 	console.log('**')
-			// 	element.textContent =
-			// 	element.textContent.slice(0, (max_width - 20)) + '...';
-			// }
-			// });
-
-			// $.each($('.shortenedSelect option'), function(key, optionElement) {
-    
-			// var curText = $(optionElement).text();
-			// $(this).attr('title', curText);
-		
-			// //trim multiplier - increase it if the text overflow the input
-			// var trimMultiplier = 10;
-			
-			// var lengthToShortenTo = Math.round(parseInt($(this).parent('select').css('max-width'), 10) / trimMultiplier);
-			
-			// // trim if current text lenght is more than necessary
-			// if (curText.length > lengthToShortenTo) {
-			// 	$(this).text(curText.substring(0, lengthToShortenTo)).append('...');
-			// }
-			// });
-		}
-
 		$(window).on('load', function() {
 			$('.preloader').hide();
-			size_dropdown();
 		});
 
 		$('#verBYC').on('click', function(e) {
