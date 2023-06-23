@@ -1,0 +1,309 @@
+*{
+  box-sizing: border-box;
+}
+body,h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat,Montserrat-fallback-Arial,sans-serif;
+}
+.preloader{
+  background: #3c9ccc;
+}
+.header-section{
+  z-index: 20;
+  position: relative;
+}
+.primary-menu .menu-area .logo {
+  padding-top: 28px;
+}
+.mobile-header{
+  background-color: #fff;
+}
+.container {
+  max-width: 95%!important;
+}
+.page-header-section{
+  position: relative;
+}
+.page-header-section.style-3 {
+  background-size: cover;
+  background-position: top left;
+  border-bottom: solid #f2db5c 15px;
+}
+.personaje{
+  position: absolute;
+  top: 100px;
+  left: 0;
+  z-index: 10;
+  background-size: cover;
+  width: 35%;
+}
+.desafio{
+  padding: 15px 30px 15px 0;
+}
+.page-header-section.style-3 .page-header-content-inner .register-title p:not(.fecha-evento) {
+  font-size: 24px;
+}
+.page-header-section.style-3 .page-header-content-inner .register-border .register-form {
+  background: #1d84c6;
+}
+select.select{
+  margin-bottom: 10px;
+  border: 1px solid #ededed;
+  color: #666;
+  background: #fff;
+  background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  display: block;
+  padding: 0.7em;
+  width: 100%;
+  margin-bottom: 1.25rem;
+  outline: none;
+  overflow-x: hidden;
+}
+select option{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.checkbox{
+  width: 100%;
+  text-align: left;
+}
+.checkbox label, .checkbox label a{
+  color: #efd75c;
+  font-size: 1rem;
+  letter-spacing: .07em;
+  font-weight: normal;    
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+}
+.checkbox label a:hover{
+  color: #fd3d6b;
+  text-decoration:underline;
+}
+input[type="checkbox"]{
+  width: 20px!important;
+  vertical-align: middle;
+  margin-bottom: 2px;
+  height: 20px!important;
+}
+@media (max-width:342.98px){
+  input, select, select option{
+    font-size: 13px;
+  }
+}
+.page-header-section.style-3 .page-header-content-inner .register-border .register-form [type=submit] {
+  background: #efd75c;
+}
+#popupBYC{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.popupBYC__cuerpo{
+  position: relative;
+  background-color: #edecec;
+  border: 5px solid #efd75c;
+  border-radius: 3px;
+  width: 85%;
+  margin: 3rem auto;
+  padding: 3rem;
+  color: #363636;
+}
+#popupBYC__cerrar{
+  background-color: #3c9ccc;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 28px;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+@media (max-width:519.98px){
+  .popupBYC__cuerpo{
+    width: 95%;
+  }
+}
+.faq-section.style-2{
+  background-size: 100% 180%;
+}
+.sponsor-section{
+  position: relative;
+  text-align: center;
+  padding: 60px 0 80px 0;
+}
+.sponsor-section.bg-ash{
+  background-color: #fff;
+}
+.sponsor-section .section-header{
+  margin-bottom: 35px;
+}
+.footer-bottom .copyright p.copyright-text{
+  font-size: 12px;
+}
+.fab.fa-youtube, .fab.fa-instagram{
+  margin-top: 7px;
+}
+.page-header-section.style-3 .page-header-content-inner .register-title p span, .page-header-content-inner .register-form p span, .about-Conference .section-header h2 span, .about-section.style-3 .about-Conference .section-header h3 span{
+  display: block;
+}
+.page-header-section.style-3 .page-header-content-inner .register-title p.fecha-evento{
+  font-weight: bold;
+  background-color: #f2db5c;
+  padding: 10px 15px;
+  text-align: center;
+}
+.page-header-section.style-3 .page-header-content-inner .register-title p.fecha-evento span{
+  display: inline-block;
+  white-space: nowrap;
+}
+.about-section.style-3 .about-Conference .section-header h2 {
+    padding-bottom: 14px;
+}
+.about-section.style-3 .about-Conference .section-header h2,
+.about-section.style-3 .about-Conference .section-header h2 span {
+    font-family: Montserrat,Montserrat-fallback-Arial,sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #0079c2;
+}
+.about-section.style-3 .about-Conference .section-header h3, .about-section.style-3 .about-Conference .section-header h3 span{
+  font-size: 26px;
+  font-weight: 600;
+}
+.about-Conference .Conference-item h6{
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+@media (min-width: 768px){
+  .page-header-section.style-3 .page-header-content-inner .register-title h2 {
+    font-size: 60px;
+  }
+}
+@media (min-width: 992px){
+  .page-header-section.style-3 .page-header-content-inner .register-title h2 {
+    font-size: 75px;
+  }
+  .page-header-section.style-3 .page-header-content-inner .register-title p{
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .page-header-section.style-3 .page-header-content-inner .register-title p.fecha-evento{
+    font-size: 28px;
+  }
+  .personaje-mobile{
+    display: none;
+  }
+}
+
+@media (min-width: 768px){
+  
+  .page-header-section.style-3 .page-header-content-inner .register-title p{
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .page-header-section.style-3 .page-header-content-inner .register-title p.fecha-evento{
+    font-size: 24px;
+  }
+
+  .about-section.style-3 .about-Conference .section-header h2,
+  .about-section.style-3 .about-Conference .section-header h2 span {
+    font-size: 36px;
+  }
+}
+/* @media (min-width: 1200px){ */
+  /* .container {
+    max-width: 90%!important;
+  } */
+/* } */
+@media (min-width: 1600px){
+  .page-header-section.style-3 .page-header-content-inner .register-title h2 {
+    font-size: 86px;
+  }
+  .page-header-section.style-3 .page-header-content-inner .register-title p {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .page-header-section.style-3 .page-header-content-inner .register-title p.fecha-evento{
+    font-size: 30px;
+  }
+
+  .page-header-section.style-3 .page-header-content-inner .register-border .register-form .form-title h5{
+    font-size: 24px;
+  }
+  .page-header-section.style-3 .page-header-content-inner .register-border .register-form .form-title p, button{
+    font-size: 24px;
+  }
+  .about-section.style-3 .about-Conference .section-header h2,
+  .about-section.style-3 .about-Conference .section-header h2 span {
+      font-size: 46px;
+  }
+  body,  input, select, textarea, label {
+    font-size: 20px;
+  }
+  .about-section.style-3 .about-Conference .section-header h3, .about-section.style-3 .about-Conference .section-header h3 span{
+    font-size: 36px;
+  }
+  .about-Conference .Conference-item h6{
+    font-size: 27px;
+  }
+  .container {
+    max-width: 85%!important;
+  }
+  .page-header-content .container{
+    max-width: 90%!important;
+  }
+  .footer-bottom .copyright p.copyright-text{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991.98px){
+  .page-header-section.style-3{
+    height: max-content;
+    padding-bottom: 50px;
+  }
+  .page-header-section.style-2 .page-header-content{
+    position: relative;
+    transform: none;
+  }
+  .page-header-content .col-lg-4{
+    width: 100%;
+  }
+  .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px auto;
+    max-width: 400px;
+  }
+  .personaje-mobile{
+    display: block;
+    width: 25%;
+  }
+  .personaje{
+    display: none;
+  }
+  .desafio {
+    padding: 0;
+    margin-left: 10px;
+    width: 85%;
+  }
+}
