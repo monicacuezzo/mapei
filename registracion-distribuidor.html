@@ -59,7 +59,7 @@
 		                    <a href="#" class="logo"><img src="assets/images/logo/logo-Mapei-blanco.webp" alt="logo"></a>
 		                    <div class="close-button" id="close-button"></div>
 		                </div>
-			            
+			             
 		                <ul class="social-link-list d-flex flex-wrap">
 		                    <li><a href="https://www.facebook.com/Mapei.Argentina/" class="facebook" target="_blank"><i class=" fab fa-facebook-f"></i></a></li>
 		                    <li><a href="https://www.instagram.com/mapei.argentina/" class="twitter-sm" target="_blank"><i class="fab fa-instagram"></i></a></li>
@@ -85,7 +85,7 @@
                                 <img src="assets/images/logo/logo-Mapei-blanco.webp" alt="logo">
                             </a>
                             <div class="right d-flex align-items-center">
-                                
+                                 
                             </div>
                         </div>
                     </div>
@@ -114,10 +114,8 @@
 									<img src="assets/images/pageheader/texto-desafio-mapei.webp" alt="">
 								</div>
 							</div>
-							<p><span>Un evento exclusivo </span>
-							<span>para profesionales</span> 
-							<span>del mundo de la construcción </span></p>
-							<p class="fecha-evento">SÁBADO 5 de AGOSTO <span>10:30 hs</span></p>
+							<p>Un evento exclusivo para nuestros distribuidores </p>
+							<p class="fecha-evento">JUEVES 3 de AGOSTO 19:30 hs </p>
 						</div>
 					</div>
 					<div class="col-lg-4">
@@ -134,16 +132,7 @@
 									<input type="text" name="apellido" placeholder="Apellido">
 									<input id="telwapp" type="number" name="number" placeholder="Teléfono de WhatsApp">
 									<input type="email" name="email" placeholder="Mail">
-									<select name="oficio" id="oficio" class="select shortenedSelect">
-										<option value="o0" disabled selected>Especialización/Oficio</option>
-										<option value="Albañilería">Albañilería</option>
-										<option value="Pintura">Pintura</option>
-										<option value="Colocador"><span>Colocador de pisos y revestimientos</span> </option>
-										<option value="Techista">Techista</option>
-										<option value="Durlero">Durlero</option>
-										<option value="Impermeabilizador">Impermeabilizador</option>
-										<option value="Otro">Otro</option>
-									</select>
+									<input type="text" name="empresa" placeholder="Empresa">
 									<div class="checkbox d-flex ">
 										<input type="checkbox" id="aceptoByC" name="aceptoByC" value="1" checked> 
 										<label>
@@ -244,10 +233,8 @@
                     <div class="about-Conference">
                         <div class="section-header">
                             <!-- <span>World Business Conference Benifits </span> -->
-                            <h2><span>MAPEI llega a tu ciudad </span>
-								<span>con un desafío increíble.</span> </h2>
-                            <h3><span>Demostrá ser el mejor en tu provincia </span>
-								<span>y participá por importantes premios.</span> </h3>
+                            <h2>MAPEI llega a tu ciudad 
+                            <span>para reunirnos y compartir un momento entre colegas y vendedores de productos para la construcción.</span></h2>
                         </div>
                         <div class="section-wrapper">
                             <div class="Conference-item">
@@ -255,26 +242,24 @@
                                 	<img src="assets/images/opportunity/icon/06.png" alt="opportunity">
                                 </div>
                                 <div class="Conference-content">
-                                    <h6>Charlas sobre producto y aplicación.</h6>
-                                     
-                                </div>
-                            </div>
-                            <div class="Conference-item">
-                                <div class="icon">
-                                	<img src="assets/images/opportunity/icon/06.png" alt="opportunity">
-                                </div>
-                                <div class="Conference-content">
-                                    <h6>Sorteos y premios especiales.</h6>
-                                     
-                                </div>
-                            </div>
-                            <div class="Conference-item">
-                                <div class="icon">
-                                	<img src="assets/images/opportunity/icon/06.png" alt="opportunity">
-                                </div>
-                                <div class="Conference-content">
-                                    <h6>Desafíos increíbles.</h6>
+                                    <h6>Un espacio de encuentro profesional.</h6>
                                     
+                                </div>
+                            </div>
+                            <div class="Conference-item">
+                                <div class="icon">
+                                	<img src="assets/images/opportunity/icon/06.png" alt="opportunity">
+                                </div>
+                                <div class="Conference-content">
+                                    <h6>Degustación gastronómica.</h6>
+                                </div>
+                            </div>
+                            <div class="Conference-item">
+                                <div class="icon">
+                                	<img src="assets/images/opportunity/icon/06.png" alt="opportunity">
+                                </div>
+                                <div class="Conference-content">
+                                    <h6>Charla con un reconocido economista sobre nuestra actualidad.</h6>
                                 </div>
                             </div>
 							<div class="Conference-item">
@@ -282,8 +267,7 @@
                                 	<img src="assets/images/opportunity/icon/06.png" alt="opportunity">
                                 </div>
                                 <div class="Conference-content">
-                                    <h6>Almuerzo entre colegas de la profesión.</h6>
-                                     
+                                    <h6>Y algunas sorpresas más...</h6>
                                 </div>
                             </div>
                         </div>
@@ -371,46 +355,8 @@
     <script src="assets/js/theia-sticky-sidebar.js"></script>
 
 	<script>
-		function size_dropdown() {
-			// const selectElement = document.getElementsByTagName('select')[0];
-			// const max_width = selectElement.clientWidth;
-			// const optionElements = document.querySelectorAll('option');
-
-			// console.log(selectElement+" "+max_width)
-
-			// Array.from(optionElements).forEach(element => {
-			// 	console.log(element.style.width+" "+max_width)
-			// 	// element.textContent.length
-			// 	element.style.width = max_width+"px";
-			// 	element.style.width = "100px";
-
-			// if (element.textContent.length > max_width) {
-			// 	console.log('**')
-			// 	element.textContent =
-			// 	element.textContent.slice(0, (max_width - 20)) + '...';
-			// }
-			// });
-
-			// $.each($('.shortenedSelect option'), function(key, optionElement) {
-    
-			// var curText = $(optionElement).text();
-			// $(this).attr('title', curText);
-		
-			// //trim multiplier - increase it if the text overflow the input
-			// var trimMultiplier = 10;
-			
-			// var lengthToShortenTo = Math.round(parseInt($(this).parent('select').css('max-width'), 10) / trimMultiplier);
-			
-			// // trim if current text lenght is more than necessary
-			// if (curText.length > lengthToShortenTo) {
-			// 	$(this).text(curText.substring(0, lengthToShortenTo)).append('...');
-			// }
-			// });
-		}
-
 		$(window).on('load', function() {
 			$('.preloader').hide();
-			size_dropdown();
 		});
 
 		$('#verBYC').on('click', function(e) {
