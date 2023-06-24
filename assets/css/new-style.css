@@ -303,6 +303,10 @@ input[type="checkbox"]{
   body,  input, select, textarea, label, .checkbox label a  {
     font-size: 26px;
   }
+  input[type="checkbox"] {
+    width: 30px!important;
+    height: 30px!important;
+  }
   .about-section.style-3 .about-Conference .section-header h3, .about-section.style-3 .about-Conference .section-header h3 span{
     font-size: 40px;
   }
