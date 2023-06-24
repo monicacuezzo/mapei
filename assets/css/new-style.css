@@ -241,7 +241,7 @@ input[type="checkbox"]{
   .page-header-section.style-3 .page-header-content-inner .register-title h2 {
     font-size: 86px;
   }
-  .page-header-section.style-3 .page-header-content-inner .register-title p {
+  .page-header-section.style-3 .page-header-content-inner .register-title p, .page-header-section.style-3 .page-header-content-inner .register-title p:not(.fecha-evento) {
     font-size: 36px;
     line-height: 45px;
   }
