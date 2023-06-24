@@ -259,7 +259,7 @@ input[type="checkbox"]{
   .about-section.style-3 .about-Conference .section-header h2 span {
       font-size: 46px;
   }
-  body,  input, select, textarea, label {
+  body,  input, select, textarea, label, .checkbox label a  {
     font-size: 20px;
   }
   .about-section.style-3 .about-Conference .section-header h3, .about-section.style-3 .about-Conference .section-header h3 span{
@@ -276,6 +276,49 @@ input[type="checkbox"]{
   }
   .footer-bottom .copyright p.copyright-text{
     font-size: 16px;
+  }
+}
+
+@media (min-width: 2100px){
+  .page-header-section.style-3 {
+    height: 920px;
+  }  
+  .page-header-section.style-3 .page-header-content-inner .register-title p, .page-header-section.style-3 .page-header-content-inner .register-title p:not(.fecha-evento) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .page-header-section.style-3 .page-header-content-inner .register-title p.fecha-evento{
+    font-size: 34px;
+  }
+  .page-header-section.style-3 .page-header-content-inner .register-border .register-form .form-title h5{
+    font-size: 30px;
+  }
+  .page-header-section.style-3 .page-header-content-inner .register-border .register-form .form-title p, button{
+    font-size: 30px;
+  }
+  .about-section.style-3 .about-Conference .section-header h2,
+  .about-section.style-3 .about-Conference .section-header h2 span {
+      font-size: 50px;
+  }
+  body,  input, select, textarea, label, .checkbox label a  {
+    font-size: 26px;
+  }
+  .about-section.style-3 .about-Conference .section-header h3, .about-section.style-3 .about-Conference .section-header h3 span{
+    font-size: 40px;
+  }
+  .about-Conference .Conference-item h6{
+    font-size: 30px;
+  }
+  .sponsor-section h4{
+    font-size: 30px;
+  }
+  .sponsor-section a img{
+    width: 130%;
+    max-width: 130%;
+    margin-left: -27px;
+  }
+  .footer-bottom .copyright p.copyright-text{
+    font-size: 20px;
   }
 }
 
