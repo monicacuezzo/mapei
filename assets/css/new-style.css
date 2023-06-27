@@ -200,6 +200,38 @@ input[type="checkbox"]{
   font-size: 20px;
   margin-bottom: 14px;
 }
+.location{
+  font-weight: bold;
+  background-color: #f2db5c;
+  padding: 30px 15px 20px 15px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+.location span{
+  display: block;
+  font-size: 1.5vw;
+  line-height: 1.8vw;
+}
+.location span.nowrap, .faq-section span{
+  white-space: nowrap;
+  display: inline-block;
+}
+.location p span.color1{ color: #0079c2;}
+.location p span.color2{ color: #000; display: inline-block;}
+.faq-schedule{
+  padding: 10px!important;
+  height: 320px;
+}
+.faq-schedule iframe{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+}
+.faq-section.style-2.padding-tb h2{
+  color: #0079c2;
+}
+
 
 @media (min-width: 768px){
   .page-header-section.style-3 .page-header-content-inner .register-title h2 {
@@ -326,6 +358,23 @@ input[type="checkbox"]{
   }
 }
 
+
+@media (max-width: 1279.98px){
+  .location span{
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 1199.98px){
+  .about-Conference .section-header h2 span, 
+  .about-Conference .section-header h3 span
+  .about-section.style-3 .about-Conference .section-header h3 span{
+    display: inline-block;
+    white-space: nowrap;
+  }
+}
+
 @media (max-width: 991.98px){
   .page-header-section.style-3{
     height: -webkit-max-content;
@@ -338,9 +387,17 @@ input[type="checkbox"]{
     -webkit-transform: none;
         -ms-transform: none;
             transform: none;
+
+
+            top: 0;
   }
   .page-header-content .col-lg-4{
     width: 100%;
+
+
+    /* margin-left: -16%; */
+    /* border-bottom: solid #f2db5c 5px;
+    width: 132%; */
   }
   .title{
     display: -webkit-box;
@@ -354,10 +411,18 @@ input[type="checkbox"]{
             justify-content: center;
     margin: 35px auto;
     max-width: 400px;
+
+    /* width: calc(100% + 30px);
+    margin-left: -15px; */
+    border-bottom: solid #f2db5c 5px;
   }
   .personaje-mobile{
     display: block;
-    width: 25%;
+    /* width: 25%; */
+
+    width: 45%;
+    height: 145px;
+    overflow-y: hidden;
   }
   .personaje{
     display: none;
@@ -366,5 +431,21 @@ input[type="checkbox"]{
     padding: 0;
     margin-left: 10px;
     width: 85%;
+  }
+  .faq-section.style-2.padding-tb h2{
+    color: #0079c2;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 376.98px){
+  .title{
+    width: 122%;
+    margin-left: -11%;
+  }
+}
+@media (max-width: 376.98px){
+  .personaje-mobile{
+    height: 120px;
   }
 }
