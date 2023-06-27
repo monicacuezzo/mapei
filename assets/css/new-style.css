@@ -182,6 +182,9 @@ input[type="checkbox"]{
   display: inline-block;
   white-space: nowrap;
 }
+.section-header {
+  margin-top: 0;
+}
 .about-section.style-3 .about-Conference .section-header h2 {
     padding-bottom: 14px;
 }
@@ -191,6 +194,10 @@ input[type="checkbox"]{
     font-size: 36px;
     font-weight: 600;
     color: #0079c2;
+}
+.distribuidor .about-section.style-3 .about-Conference .section-header h2,
+.distribuidor .about-section.style-3 .about-Conference .section-header h2 span {
+    font-size: 30px;
 }
 .about-section.style-3 .about-Conference .section-header h3, .about-section.style-3 .about-Conference .section-header h3 span{
   font-size: 26px;
@@ -206,7 +213,7 @@ input[type="checkbox"]{
   padding: 30px 15px 20px 15px;
   text-align: center;
   border-radius: 5px;
-  margin: 30px 0;
+  margin: 30px 0 10px 0;
 }
 .location span{
   display: block;
@@ -269,6 +276,20 @@ input[type="checkbox"]{
     font-size: 36px;
   }
 }
+
+@media (min-width: 1200px) AND (max-width: 1279.98px){
+  .about-section.style-1.style-3 .container{
+    width: 100%!important;max-width: 100%!important; padding: 0;
+  }
+  .section-header {
+    margin-bottom: 25px;
+  }
+  .location{
+    margin: 0;
+    padding: 10px 15px 5px 15px;
+  }
+}
+
 @media (min-width: 1600px){
   .page-header-section.style-3 .page-header-content-inner .register-title h2 {
     font-size: 86px;
@@ -288,7 +309,7 @@ input[type="checkbox"]{
     font-size: 24px;
   }
   .about-section.style-3 .about-Conference .section-header h2,
-  .about-section.style-3 .about-Conference .section-header h2 span {
+  .about-section.style-3 .about-Conference .section-header h2 span, .distribuidor .about-section.style-3 .about-Conference .section-header h2, .distribuidor .about-section.style-3 .about-Conference .section-header h2 span {
       font-size: 46px;
   }
   body,  input, select, textarea, label, .checkbox label a  {
@@ -358,10 +379,19 @@ input[type="checkbox"]{
   }
 }
 
-
+@media (max-width: 1499.98px){
+  .distribuidor .section-header {
+    margin-bottom: 30px;
+  }
+  
+}
 @media (max-width: 1279.98px){
   .location span{
     font-size: 24px;
+    line-height: 36px;
+  }
+  .distribuidor .location span{
+    font-size: 20px;
     line-height: 36px;
   }
 }
@@ -372,6 +402,10 @@ input[type="checkbox"]{
   .about-section.style-3 .about-Conference .section-header h3 span{
     display: inline-block;
     white-space: nowrap;
+  }
+  .distribuidor .about-Conference .section-header h2 span{
+    display: inline;
+    white-space: wrap;
   }
 }
 
@@ -403,11 +437,6 @@ input[type="checkbox"]{
   }
   .page-header-content .col-lg-4{
     width: 100%;
-
-
-    /* margin-left: -16%; */
-    /* border-bottom: solid #f2db5c 5px;
-    width: 132%; */
   }
   .title{
     display: -webkit-box;
@@ -422,13 +451,10 @@ input[type="checkbox"]{
     margin: 35px auto;
     max-width: 400px;
 
-    /* width: calc(100% + 30px);
-    margin-left: -15px; */
     border-bottom: solid #f2db5c 5px;
   }
   .personaje-mobile{
     display: block;
-    /* width: 25%; */
 
     width: 45%;
     height: 145px;
