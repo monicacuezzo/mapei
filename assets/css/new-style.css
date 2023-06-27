@@ -375,6 +375,16 @@ input[type="checkbox"]{
   }
 }
 
+@media (max-width: 499.98px){
+  .about-Conference .section-header h2 span, 
+  .about-Conference .section-header h3 span
+  .about-section.style-3 .about-Conference .section-header h3 span{
+    display: block;
+    white-space: wrap;
+  }
+}
+
+
 @media (max-width: 991.98px){
   .page-header-section.style-3{
     height: -webkit-max-content;
