@@ -149,6 +149,9 @@ input[type="checkbox"]{
     width: 95%;
   }
 }
+.faq-section.style-2.padding-tb{
+  background-color: #dce9ef;
+}
 .faq-section.style-2{
   background-size: 100% 180%;
 }
